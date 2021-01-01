@@ -1,0 +1,7 @@
+
+.navbar.second-navbar {
+    margin-top: 60px;
+    background: rgb(255, 255, 255) !important;
+    transition: all .5s ease-in-out;
+    height: 50px;
+  }

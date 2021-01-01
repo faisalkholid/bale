@@ -1,0 +1,120 @@
+
+  #search-box {
+    padding-left: 0;
+    position: relative;
+    margin: 150px;
+  }
+
+  #search-box input {
+    width: 150%;
+    border: 5;
+    border-color: #22068a;
+    height: 50px;
+    border-radius: 25px;
+    outline: none;
+    padding-left: 60px;
+    /* line-height: 61px; */
+    /* box-shadow: 12px 12px 30px 0 rgba(1, 1, 134, 0.1); */
+    font-weight: 500;
+    color: #8ba2ad;
+  }
+
+  #search-box input::-webkit-input-placeholder {
+    font-weight: 500;
+    color: #c5d3de;
+    font-size: 14px;
+  }
+
+  #search-box input::-moz-placeholder {
+    font-weight: 500;
+    color: #c5d3de;
+    font-size: 14px;
+  }
+
+  #search-box input::-ms-input-placeholder {
+    font-weight: 500;
+    color: #c5d3de;
+    font-size: 14px;
+  }
+
+  #search-box input::-moz-placeholder {
+    font-weight: 500;
+    color: #c5d3de;
+    font-size: 14px;
+  }
+
+  #search-box .fa-globe {
+    position: absolute;
+    top: 14px;
+    left: 22px;
+    font-size: 23px;
+    color: #22068a;
+  }
+
+  .fa-search {
+    position: absolute;
+    top: 14px;
+    left: 16px;
+
+  }
+
+  #search-box .inline-search {
+    position: absolute;
+    top: 5px;
+    right: -240px;
+  }
+
+  #search-box .inline-search #search-btn {
+    background-image: linear-gradient(to right, #321b9a, #4027b0);
+    border: 0;
+    transition: background-size .2s ease-in-out, .2s box-shadow ease-in-out, .2s filter, .3s opacity;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+    font-size: 14px;
+    border-radius: 50px;
+    outline: none !important;
+    line-height: 40px;
+    cursor: pointer;
+    /* box-shadow: 3px 4px 31px 0 rgba(104, 93, 253, 0.54); */
+    margin-left: 2px;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
+  #search-box .inline-search #search-btn:hover {
+    background-size: 175% 100%;
+    color: rgb(88, 88, 88);
+    outline: none;
+    transition: background-size .2s ease-in-out, .2s box-shadow ease-in-out, .2s filter, .3s opacity;
+  }
+
+  #search-box .inline-search #transfer-btn {
+    background-image: linear-gradient(to right, #5c5cfd, #d65ffd);
+    border: 0;
+    transition: background-size .2s ease-in-out, .2s box-shadow ease-in-out, .2s filter, .3s opacity;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    font-size: 14px;
+    border-radius: 50px;
+    outline: none !important;
+    line-height: 40px;
+    cursor: pointer;
+    box-shadow: 3px 4px 31px 0 rgba(149, 94, 253, 0.45);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
+  #search-box .inline-search #transfer-btn:hover {
+    background-size: 175% 100%;
+    color: rgb(255, 255, 255);
+    outline: none;
+    transition: background-size .2s ease-in-out, .2s box-shadow ease-in-out, .2s filter, .3s opacity;
+  }
