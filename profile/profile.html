@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../dist/css/second-nav.css">
+    <link rel="stylesheet" href="../dist/css/upload.css">
+    <link rel="stylesheet" href="../dist/css/iklan.css">
+    <link rel="stylesheet" href="../dist/css/cssdatepicker/bootstrap-datepicker3.min.css">
+
+    <title>profile</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md main-nav fixed-top" style="background-color: #043464;">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <img src="../image/icon.png" width="50" height="50" class="d-inline-block align-top" alt=""
+                        loading="lazy">
+                </li>
+            </ul>
+            <h6 class="font-weight-bold" style="color: white;">BALE STARTUP
+                INDONESIA</h6>
+            <ul class="nav navbar-nav">
+                <li class="nav-item">
+                    <button class="btn btn-outline-warning btn-sm font-weight-bold" href="#">LOGOUT <i
+                            class="fa fa-sign-out"></i></button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <nav>
+        <div class="nav navbar nav-tabs second-navbar navbar-expand-sm fixed-top navbar-light bg-light shadow-sm p-3 mb-5 bg-white rounded justify-content-center"
+            id="nav-tab" role="tablist">
+            <a class="nav-item nav-link active font-weight-bold" id="nav-profile-tab" data-toggle="tab"
+                href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="true">PROFILE</a>
+            <a class="nav-item nav-link font-weight-bold" id="nav-bookmark-tab" data-toggle="tab" href="#nav-bookmark"
+                role="tab" aria-controls="nav-bookmark" aria-selected="false">BOOKMARK</a>
+            <a class="nav-item nav-link font-weight-bold" id="nav-ubah-tab" data-toggle="tab" href="#nav-ubah"
+                role="tab" aria-controls="nav-ubah" aria-selected="false">UBAH PROFILE</a>
+            <a class="nav-item nav-link font-weight-bold" id="nav-iklan-tab" data-toggle="tab" href="#nav-iklan"
+                role="tab" aria-controls="nav-iklan" aria-selected="false">PASANG IKLAN</a>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <div class="row no-gutters">
+                <div class="col-6 col-md-3">
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <br>
+                    <br>
+                    <br>
+                    <h4 class="font-weight-bold" style="color:#5a5a5a">PROGRES IKLAN/BULAN</h4>
+                    <br>
+                    <div>
+                        <div class="container">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 50%">15 Hari
+                                </div>
+                            </div>
+                            <p><small style="color:red;padding-left: 350px;">*Ini adalah progres iklan yang anda pasang
+                                    pada
+                                    situs
+                                    kami</small></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <h4 class="font-weight-bold text-center" style="color:#5a5a5a">PROFIL</h4>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="../image/icon.png" class="rounded-circle" alt="" width="150" height="150">
+                        </div>
+                        <br>
+                        <div class="col-sm-8">
+                            <table class="table table-borderless col-10">
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <h6 class="col"><i class="fa fa-user-circle"
+                                                    style="color:#5a5a5a !important;"></i> Nama
+                                            </h6>
+                                        </td>
+                                        <td>Jhon Doe</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h6 class="col"><i class="fa fa-envelope"
+                                                    style="color:#5a5a5a !important;"></i>
+                                                Email
+                                            </h6>
+                                        </td>
+                                        <td>jhon@email.com</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h6 class="col"><i class="fa fa-address-book"
+                                                    style="color:#5a5a5a !important;"></i>
+                                                Alamat</h6>
+                                        </td>
+                                        <td>jl.123 haji susanoo</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <h6 class="col"><i class="fa fa-whatsapp"
+                                                    style="color:#5a5a5a !important;"></i> No
+                                                Hp
+                                            </h6>
+                                        </td>
+                                        <td>2019791834</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div style="padding-left:290px ;">
+                            <button type="button" class="btn btn-success">Ganti Profil</button>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-bookmark" role="tabpanel" aria-labelledby="nav-bookmark-tab">
+            <div class="row no-gutters">
+                <div class="col-6 col-md-3">
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <h4 class="font-weight-bold text-center" style="color:#5a5a5a">INI ADALAH HALAMAN TEMPAT ANDA
+                        MENYIMPAN PROPERTY</h4>
+                    <hr>
+                    <div class="row no-gutters">
+                        <div class="col-sm-6 col-md-12">
+                            <div class="row row-cols-1 row-cols-md-3">
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <a href="#"><img src="../image/int.jpg" class="card-img-top" alt="..."></a>
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <a href="#" class="card-link col-md-8 font-weight-normal"
+                                                    style="color: #333;">Mentari</a>
+                                                <a href="" class="col-1">
+                                                    <i class="fa fa-share-alt" style="color:#5a5a5a !important;"></i>
+                                                </a>
+                                                <a href="#" class="col-1">
+                                                    <i class="fa fa-trash" style="color:#5a5a5a !important;"></i>
+                                                </a>
+                                            </div>
+                                            <p class="card-text font-weight-bold" style="color: crimson;">RP.
+                                                300.000.000
+                                            </p>
+                                            <div class="row">
+                                                <h6 class="col"><i class="fa fa-bed"
+                                                        style="color:#5a5a5a !important;"></i> 2</h6>
+                                                <h6 class="col"><i class="fa fa-bath"
+                                                        style="color:#5a5a5a !important;"></i> 2</h6>
+                                                <h6 class="col"><i class="fa fa-arrows-alt"
+                                                        style="color:#5a5a5a !important;"></i> 2</h6>
+                                            </div>
+                                            <div class="row">
+                                                <small class="col"><i class="fa fa fa-eye"
+                                                        style="color:#5a5a5a !important;"></i> 253.237</small>
+                                                <small class="col"><i class="fa fa-star" style="color: gold;"></i>
+                                                    4/5</small>
+                                            </div>
+                                            <br>
+                                            <div class="row">
+                                                <small class="col" style="color: green;">Subsidi</small>
+                                                <small class="col"><i class="fa fa-map-marker"
+                                                        style="color: lightcoral;"></i> Lombok
+                                                    Barat</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <a href="#"><img src="../image/int.jpg" class="card-img-top" alt="..."></a>
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <a href="#" class="card-link col-md-8 font-weight-normal"
+                                                    style="color: #333;">Mentari</a>
+                                                <a href="" class="col-1">
+                                                    <i class="fa fa-share-alt" style="color:#5a5a5a !important;"></i>
+                                                </a>
+                                                <a href="#" class="col-1">
+                                                    <i class="fa fa-trash" style="color:#5a5a5a !important;"></i>
+                                                </a>
+                                            </div>
+                                            <p class="card-text font-weight-bold" style="color: crimson;">RP.
+                                                300.000.000
+                                            </p>
+                                            <div class="row">
+                                                <h6 class="col"><i class="fa fa-bed"
+                                                        style="color:#5a5a5a !important;"></i> 2</h6>
+                                                <h6 class="col"><i class="fa fa-bath"
+                                                        style="color:#5a5a5a !important;"></i> 2</h6>
+                                                <h6 class="col"><i class="fa fa-arrows-alt"
+                                                        style="color:#5a5a5a !important;"></i> 2</h6>
+                                            </div>
+                                            <div class="row">
+                                                <small class="col"><i class="fa fa fa-eye"
+                                                        style="color:#5a5a5a !important;"></i> 253.237</small>
+                                                <small class="col"><i class="fa fa-star" style="color: gold;"></i>
+                                                    4/5</small>
+                                            </div>
+                                            <br>
+                                            <div class="row">
+                                                <small class="col" style="color: green;">Subsidi</small>
+                                                <small class="col"><i class="fa fa-map-marker"
+                                                        style="color: lightcoral;"></i> Lombok
+                                                    Barat</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col mb-4">
+                                    <div class="card">
+                                        <a href="#"><img src="../image/int.jpg" class="card-img-top" alt="..."></a>
+                                        <div class="card-body">
+                                            <div class="row">
+                                                <a href="#" class="card-link col-md-8 font-weight-normal"
+                                                    style="color: #333;">Mentari</a>
+                                                <a href="" class="col-1">
+                                                    <i class="fa fa-share-alt" style="color:#5a5a5a !important;"></i>
+                                                </a>
+                                                <a href="#" class="col-1">
+                                                    <i class="fa fa-trash" style="color:#5a5a5a !important;"></i>
+                                                </a>
+                                            </div>
+                                            <p class="card-text font-weight-bold" style="color: crimson;">RP.
+                                                300.000.000
+                                            </p>
+                                            <div class="row">
+                                                <h6 class="col"><i class="fa fa-bed"
+                                                        style="color:#5a5a5a !important;"></i> 2</h6>
+                                                <h6 class="col"><i class="fa fa-bath"
+                                                        style="color:#5a5a5a !important;"></i> 2</h6>
+                                                <h6 class="col"><i class="fa fa-arrows-alt"
+                                                        style="color:#5a5a5a !important;"></i> 2</h6>
+                                            </div>
+                                            <div class="row">
+                                                <small class="col"><i class="fa fa fa-eye"
+                                                        style="color:#5a5a5a !important;"></i> 253.237</small>
+                                                <small class="col"><i class="fa fa-star" style="color: gold;"></i>
+                                                    4/5</small>
+                                            </div>
+                                            <br>
+                                            <div class="row">
+                                                <small class="col" style="color: green;">Subsidi</small>
+                                                <small class="col"><i class="fa fa-map-marker"
+                                                        style="color: lightcoral;"></i> Lombok
+                                                    Barat</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-ubah" role="tabpanel" aria-labelledby="nav-ubah-tab">
+            <div class="row no-gutters">
+                <div class="col-6 col-md-3">
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <br>
+                    <div class="container rounded bg-white mt-5">
+                        <div class="row">
+                            <div class="col-md-4 border-right">
+                                <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img
+                                        class="rounded-circle mt-5" src="../image/icon.png" width="90" height="90"><span
+                                        class="font-weight-bold">John Doe</span><span
+                                        class="text-black-50">john_doe12@bbb.com</span><span>United States</span>
+                                </div>
+
+                            </div>
+                            <div class="col-md-8">
+                                <div class="p-3 py-5">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <div class="d-flex flex-row align-items-center back">
+                                            <h6>Ubah Profile</h6>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-2">
+                                        <div class="col-md-6"><input type="text" class="form-control"
+                                                placeholder="Nama Lengkap" value=""></div>
+                                        <div class="col-md-6"><input type="text" class="form-control" value=""
+                                                placeholder="Email"></div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-md-6"><input type="text" class="form-control"
+                                                placeholder="Alamat" value=""></div>
+                                        <div class="col-md-6"><input type="text" class="form-control" value=""
+                                                placeholder="No Hp"></div>
+                                    </div>
+                                    <hr>
+                                    <div>
+                                        <!-- Upload image input-->
+                                        <div class="input-group mb-3 px-2 py-2 rounded-pill shadow-sm">
+                                            <input id="upload" type="file" onchange="readURL(this);"
+                                                class="form-control border-0">
+                                            <label id="upload-label" for="upload"
+                                                class="font-weight-light text-muted">Pilih foto</label>
+                                            <div class="input-group-append">
+                                                <label for="upload" class="btn btn-light m-0 rounded-pill px-4"> <i
+                                                        class="fa fa-cloud-upload mr-2 text-muted"></i><small
+                                                        class="text-uppercase font-weight-bold text-muted">Pilih
+                                                        foto</small></label>
+                                            </div>
+                                        </div>
+
+                                        <!-- Uploaded image area-->
+                                        <p class="font-italic text-center">foto akan terlihat dibawah sini !</p>
+                                        <div class="image-area mt-4"><img id="imageResult" src="#" alt=""
+                                                class="img-fluid rounded mx-auto d-block"></div>
+                                        <div class="mt-5 text-right"><button class="btn btn-success profile-button"
+                                                type="button">Save Profile</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="nav-iklan" role="tabpanel" aria-labelledby="nav-iklan-tab">
+            <div class="row no-gutters">
+                <div class="col-6 col-md-3">
+                </div>
+                <div class="col-sm-6 col-md-6">
+                    <div class="container rounded bg-white mt-5">
+                        <div>
+                            <div>
+                                <div class="p-3 py-5">
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <div class="d-flex flex-row align-items-center back">
+                                            <h3 style="color: #333;">Pasang Iklan</h3>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-2">
+                                        <div class="col-md-6"><input type="text" class="form-control"
+                                                placeholder="Nama Iklan" value=""></div>
+                                        <div class="col-md-6"><input type="text" class="form-control" value=""
+                                                placeholder="Jenis"></div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-md-6"><input type="text" class="form-control"
+                                                placeholder="Alamat" value=""></div>
+                                        <div class="col-md-6"><input type="text" class="form-control" value=""
+                                                placeholder="No Hp"></div>
+                                    </div>
+                                    <div class="row mt-3">
+                                        <div class="col-md-6">
+                                            <div class="input-group date">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                                </div>
+                                                <input placeholder="masukkan tanggal Awal" type="text"
+                                                    class="form-control datepicker" name="tgl_awal">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="input-group date">
+                                                <div class="input-group-prepend">
+                                                    <div class="input-group-text"><i class="fa fa-calendar"></i></div>
+                                                </div>
+                                                <input placeholder="masukkan tanggal Berakhir" type="text"
+                                                    class="form-control datepicker" name="tgl_akhir">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <hr>
+                                    <div class="form-group">
+                                        <label for="exampleFormControlSelect1">Pilih Layout Iklan</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>--Pilih Layout--</option>
+                                            <option>Besar W 1700 X H 567</option>
+                                            <option>Kecil W 1024 X H 439</option>
+                                        </select>
+                                    </div>
+                                    <div class="file-upload">
+                                        <button class="file-upload-btn" type="button"
+                                            onclick="$('.file-upload-input').trigger( 'click' )">Upload Iklan
+                                            Anda</button>
+
+                                        <div class="image-upload-wrap">
+                                            <input class="file-upload-input" type='file' onchange="readURL2(this);"
+                                                accept="image/*" />
+                                            <div class="drag-text">
+                                                <i class="fa fa-cloud-upload fa-5x"
+                                                    style="color:#5a5a5a !important; padding-top: 50px; padding-bottom: 12px;"></i>
+                                                    <h4 style="color: #5a5a5a;">Upload Desain Iklan</h4>
+                                                <small style="color: #5a5a5a;">silahkan upload desain iklan sesuai ukuran layout yang anda pesan
+                                                </small>
+                                                <h3 style="padding-top: 10px;">Drag and drop a file or select add Image
+                                                </h3>
+                                            </div>
+                                        </div>
+                                        <div class="file-upload-content">
+                                            <img class="file-upload-image" src="#" alt="your image" />
+                                            <div class="image-title-wrap">
+                                                <button type="button" onclick="removeUpload()"
+                                                    class="remove-image">HAPUS</button>
+                                            </div>
+                                        </div>
+                                        <div class="mt-5 text-right"><button class="btn btn-success profile-button"
+                                            type="button">Kirim Permintaan Iklan</button></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <br>
+    <br>
+    <br>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../dist/js/upload.js"></script>
+    <script type="text/javascript" src="../dist/js/iklan.js"></script>
+    <script type="text/javascript" src="../dist/css/jsdatepicker/bootstrap-datepicker.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $(".datepicker").datepicker({
+                format: 'yyyy-mm-dd',
+                autoclose: true,
+                todayHighlight: true,
+            });
+        });
+    </script>
+
+</body>
+
+</html>
